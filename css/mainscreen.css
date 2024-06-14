@@ -1,0 +1,44 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 46px;
+    grid-auto-rows: 150px;
+    width: 700px;
+    margin: auto; 
+    gap: 10px;
+}
+
+.div1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color:bisque;
+    text-align: center;
+} 
+
+.div2 img {
+    width: 150px;
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.div3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.div4 .img2 {
+    width: 150px;
+    height: 150px;
+}
+.div5 .img3 {
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    background-image: linear-gradient(to right, purple, #ADD8E6, #ff6347);
+}
+
+.a {
+    text-align: left;
+}

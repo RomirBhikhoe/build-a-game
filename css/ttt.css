@@ -1,0 +1,144 @@
+:root {
+    --background: rgb(140, 157, 255);
+    --green: rgb(71, 212, 153);
+}
+
+body {
+    background-color: var(--background);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.but {
+    position: relative;
+    top: 40vh;
+    height: 17%;
+    width: 70%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    background-color: var(--green);
+    border-radius: 15px;
+}
+
+.home {
+    position: relative;
+    top: 50vh;
+    height: 17%;
+    width: 70%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    background-color: var(--green);
+    border-radius: 15px;
+}
+
+#close-btn-x {
+    background-color: var(--background);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 160%;
+    height: 30%;
+    width: 30%;
+}
+
+#close-btn-o {
+    background-color: var(--background);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 160%;
+    height: 30%;
+    width: 30%;
+}
+
+#pop-up-x {
+    position: relative;
+    margin: auto;
+    background-color: var(--green);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 35%;
+    display: none;
+}
+
+#pop-up-o {
+    position: relative;
+    margin: auto;
+    background-color: var(--green);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 35%;
+    display: none;
+}
+
+#point-for-x {
+    position: relative;
+    margin: auto;
+    background-color: var(--green);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 35%;
+    display: none;
+}
+
+#point-for-o {
+    position: relative;
+    margin: auto;
+    background-color: var(--green);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 35%;
+    display: none;
+}
+
+#close-point-x {
+    background-color: var(--background);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 160%;
+}
+
+#close-point-o {
+    background-color: var(--background);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 160%;
+}
+
+#tie {
+    position: relative;
+    margin: auto;
+    background-color: var(--green);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 35%;
+    display: none;
+}
+
+#close-tie {
+    background-color: var(--background);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 160%;
+}
+
+.ttt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tile, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+    background-color: var(--background);
+    border: 5px solid white;
+    font-size: 600%; 
+    aspect-ratio: 1;
+    /*Zo zet ik de X en de O in het midden*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

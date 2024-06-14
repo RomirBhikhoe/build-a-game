@@ -1,0 +1,32 @@
+:root {
+    --background: rgb(140, 157, 255);
+    --green: rgb(71, 212, 153);
+}
+
+body {
+    background-color: var(--background);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+button {
+    background-color: var(--background);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.singleMulti {
+    background-color: var(--green);
+    width: 50vw;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
