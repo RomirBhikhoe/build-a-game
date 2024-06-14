@@ -84,7 +84,7 @@ reset.addEventListener("click", function() {
 });
 
 home.addEventListener("click", function() {
-    window.location.href = "mainscreen.html"
+    window.location.href = "https://romirbhikhoe.github.io/build-a-game/"
 });
 
 //Maakt elk vakje onklikbaar nadat je erop hebt geklikt
